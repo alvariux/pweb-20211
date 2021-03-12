@@ -16,7 +16,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>Ejemplo Javascript</h1>
+      <h1>Calculadora basica en Javascript</h1>
 
       <p id="texto"></p>
 
@@ -31,27 +31,23 @@
           <input type="text" id="numero2" name="numero2" autocomplete="off" />
         </div>
 
+        <div class="form-group">
+          <label for="operacion">Operacion</label>
+          <select name="operacion" id="operacion">
+            <option value="1">Suma</option>
+            <option value="2">Resta</option>
+            <option value="3">Multiplicacion</option>
+            <option value="4">Division</option>
+          </select>
+        </div>
+
         <button class="btn" id="btn-enviar">Aceptar</button>
       </form>
 
       <span>Resultado: </span>
       <span id="resultado"></span>
+
+      <script src="main.js"></script>
     </div>
-
-    <script type="text/javascript">
-      const p = document.getElementById("texto");
-      p.innerHTML = "Programa para sumar 2 numeros";
-
-      const btn = document.getElementById("btn-enviar");
-      btn.addEventListener("click", (e) => {
-        e.preventDefault();
-        const numero1 = document.getElementById("numero1");
-        const numero2 = document.getElementById("numero2");
-        var resultado = parseInt(numero1.value) + parseInt(numero2.value);
-
-        const res = document.getElementById("resultado");
-        res.innerHTML = resultado;
-      });
-    </script>
   </body>
 </html>
