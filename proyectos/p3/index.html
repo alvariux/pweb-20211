@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplo bootstrap</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Biryani:wght@300;400;700&family=Fira+Sans+Condensed:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h2 class="company-name mt-4">YourCompanyName</h2>
+
+      <header>
+        <ul class="nav d-flex align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+
+        <img class="fondo" src="img/building.jpg" alt="" />
+
+        <div class="overlay"></div>
+
+        <div class="titulos d-flex flex-column">
+          <span class="twelcome">Welcome to</span>
+          <span class="swelcome">Companyname</span>
+        </div>
+      </header>
+
+      <section class="team">
+        <div class="row justify-content-center">
+          <div class="col-8 text-center">
+            <h2 class="titulo">Our team leaders</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem, vero nemo. Ex earum illo sed deserunt et provident,
+              officia alias dolorem vel eveniet officiis dicta iure voluptates
+              omnis? Vitae, ab. Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Odio voluptate nihil, illum debitis ab
+              consectetur? Modi temporibus nostrum atque iusto, velit pariatur
+              nemo aspernatur, minima libero sed delectus quam rem.
+            </p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-12 col-lg-4 text-center">
+            <img src="img/person1.jpg" alt="" />
+            <h3 class="mt-4">Hugo Silva</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iure?
+            </p>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-4 text-center">
+            <img src="img/person2.jpg" alt="" />
+            <h3 class="mt-4">Imanol Arias</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iure?
+            </p>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-4 text-center">
+            <img src="img/person3.jpg" alt="" />
+            <h3 class="mt-4">Javier Bardem</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iure?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="row h-100">
+          <div
+            class="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center my-auto"
+          >
+            <span class="stats-valor">2500</span>
+            <span class="stats-titulo">Happy clients</span>
+          </div>
+
+          <div
+            class="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center my-auto"
+          >
+            <span class="stats-valor">300</span>
+            <span class="stats-titulo">Full notebooks</span>
+          </div>
+
+          <div
+            class="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center my-auto"
+          >
+            <span class="stats-valor">120</span>
+            <span class="stats-titulo">Teammates</span>
+          </div>
+
+          <div
+            class="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center my-auto"
+          >
+            <span class="stats-valor">30</span>
+            <span class="stats-titulo">Stories</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="sec-imagen"></div>
+
+      <section class="contact">
+        <div class="row justify-content-center">
+          <div class="col-8 text-center">
+            <h2 class="contact-titulo">Contact</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              laborum veniam natus amet distinctio, voluptate exercitationem
+              neque impedit, dolorum accusamus velit cum porro itaque! Quos ut
+              quisquam dolorem aspernatur cum.
+            </p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-5">
+          <div class="col-8">
+            <form action="">
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Name" />
+                </div>
+                <div class="col">
+                  <select id="inputState" class="form-control">
+                    <option selected>Category</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Phone" />
+                </div>
+                <div class="col">
+                  <select id="inputState" class="form-control">
+                    <option selected>City</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Email" />
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col">
+                  <textarea
+                    class="form-control"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+              </div>
+
+              <button class="btn btn-primary btn-contact mt-4 float-right">
+                Contact us
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="row justify-content-center">
+          <div class="col-12 col-xl-6 text-center">
+            <img class="img-about" src="img/about.jpg" alt="" />
+          </div>
+          <div
+            class="col-12 col-md-6 p-5 d-flex justify-content-center align-items-center"
+          >
+            <div class="about-content text-center">
+              <h2>About us</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In ea
+                sit eligendi odio, incidunt aperiam maxime exercitationem magni?
+                Sequi repudiandae ipsum impedit reiciendis hic nemo magni
+                mollitia eos recusandae quae?
+              </p>
+              <div class="about-parts d-flex">
+                <div class="about-item">
+                  <img
+                    class="rounded-circle"
+                    src="img/business-team.jpg"
+                    alt=""
+                  />
+                  <p>Friendly team</p>
+                </div>
+
+                <div class="about-item">
+                  <img
+                    class="rounded-circle"
+                    src="img/business-involved.jpg"
+                    alt=""
+                  />
+                  <p>Involved</p>
+                </div>
+
+                <div class="about-item">
+                  <img
+                    class="rounded-circle"
+                    src="img/business-team.jpg"
+                    alt=""
+                  />
+                  <p>24/7 Assistance</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-links p-5 row justify-content-center">
+          <div class="col-12 col-lg-3">
+            <h3>Content</h3>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+
+          <div class="col-12 col-lg-3">
+            <h3>Information</h3>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+
+          <div class="col-12 col-lg-3">
+            <h3>Legal</h3>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+
+          <div class="col-12 col-lg-3">
+            <h3>Help</h3>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+
+        <div class="footer-copy py-3 row justify-content-center">
+          <div class="col-12 col-lg-6">
+            Copyright &copy; 2021. YourCompanyName.
+          </div>
+
+          <div class="col-12 col-lg-2"></div>
+          <div class="col-12 col-lg-4">
+            <i class="fab fa-google-plus-g"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
